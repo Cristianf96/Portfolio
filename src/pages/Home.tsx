@@ -3,7 +3,7 @@ import { ChevronDoubleDownIcon } from '@heroicons/react/solid'
 
 const Home = () => {
     return (
-        <div className="h-screen w-screen flex flex-col items-center justify-center bg-gray-900">
+        <div className="overflow-hidden h-screen w-screen flex flex-col items-center justify-center bg-gray-900">
             <div className='pt-32 md:pt-80 lg:pt-56 flex flex-col justify-center'>
                 <h1 className='font-mono text-left text-xs pl-16 text-white font-bold md:text-xl md:pl-36 lg:pl-28'>Yo soy</h1>
                 <h1 className='font-mono text-center text-5xl text-white font-bold md:text-8xl'>CRISTIAN</h1>
