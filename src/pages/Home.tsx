@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div className='mt-20 mb-20 flex flex-col items-center text-white'>
                 <h1 className='uppercase font-bold pb-5 md:pb-10 md:text-2xl'>competencias</h1>
-                <div className='w-72 md:w-[40rem] lg:w-[60rem] grid grid-rows-4 md:grid-rows-3 lg:grid-rows-2 grid-flow-col gap-2'>
+                <div className='w-80 py-5 md:w-[40rem] lg:w-[60rem] grid grid-rows-4 md:grid-rows-3 lg:grid-rows-2 grid-flow-col gap-2 bg-gray-800 shadow-xl justify-center rounded-lg'>
                     {skills.map((item, i) => {
                         return (
                             <div className='flex justify-center' key={i + id}>
