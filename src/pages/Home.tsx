@@ -1,6 +1,5 @@
 import { useId } from 'react'
 import { CheckCircleIcon, ChevronDoubleDownIcon } from '@heroicons/react/solid'
-import moment from 'moment';
 
 const Home = () => {
     const id = useId()
@@ -19,12 +18,6 @@ const Home = () => {
         'MUI',
         'TAILWIND',
     ]
-
-    const calcularEdad = () => {
-        var cumpleanos = moment('1996-12-18').format('YYYY-MM-DD');
-        const edad = moment().diff(cumpleanos, 'years', false);
-        return edad;
-    }
 
     return (
         <div className="mx-auto h-[cal(100vh-144)] flex flex-col items-center justify-center bg-gray-900">
