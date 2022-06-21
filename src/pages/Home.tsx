@@ -1,5 +1,6 @@
 import { useId } from 'react'
 import { CheckCircleIcon, ChevronDoubleDownIcon } from '@heroicons/react/solid'
+import { Toaster } from 'react-hot-toast'
 
 const Home = () => {
     const id = useId()
@@ -21,6 +22,7 @@ const Home = () => {
 
     return (
         <div className="mx-auto h-[cal(100vh-144)] flex flex-col items-center justify-center bg-gray-900">
+            <Toaster />
             <div className='pt-56 md:pt-96 lg:pt-72 flex flex-col justify-center'>
                 <h1 className='font-mono text-left text-xs pl-16 text-white font-bold md:text-xl md:pl-36 lg:pl-28'>Yo soy</h1>
                 <h1 className='font-mono text-center text-5xl text-white font-bold md:text-8xl'>CRISTIAN</h1>
