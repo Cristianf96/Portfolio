@@ -1,4 +1,5 @@
 import moment from 'moment'
+
 import distrito from '../assets/distrito.png'
 import OAE from '../assets/O&E.png'
 
@@ -24,7 +25,7 @@ const Projects = () => {
         {
             date: 'Noviembre 17,2021',
             title: 'Order And Eat Now Web app',
-            description: 'Plataforma que te permite hacer la busqueda de tu establecimiento favorito y hacer tus pedidos ya sean dentro de un restaurante o reservaciones de hotel o incluso reservar un auto para tu viaje.',
+            description: 'Plataforma que te permite hacer la busqueda de tu establecimiento favorito y hacer tus pedidos ya sean dentro de un restaurante, reservaciones de hotel o incluso reservar un auto para tu viaje.',
             linkCompany: 'https://whitesoft.com.au/',
             linkSite: 'https://app.orderandeatnow.com.au/',
             image: `${OAE}`
