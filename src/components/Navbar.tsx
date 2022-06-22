@@ -1,8 +1,9 @@
+import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
-        <nav className='sticky top-0 mx-auto h-16 px-8 flex items-center justify-between text-white bg-gray-900 shadow-md'>
+        <motion.nav className='sticky top-0 mx-auto h-16 px-8 flex items-center justify-between text-white bg-gray-900 shadow-md'>
             <Link className='px-2 font-mono uppercase md:text-3xl' to={"/"}>
                 Inicio
             </Link>
@@ -14,7 +15,7 @@ const Navbar = () => {
                     contacto
                 </Link>
             </div>
-        </nav>
+        </motion.nav>
     )
 }
 
