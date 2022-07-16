@@ -43,7 +43,7 @@ const Projects = () => {
     }
 
     const calcularExperiencia = () => {
-        let cumpleanos = moment('2019-01-01').format('YYYY-MM-DD');
+        let cumpleanos = moment('2020-01-01').format('YYYY-MM-DD');
         const edad = moment().diff(cumpleanos, 'years', false);
         return edad;
     }
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className='text-center mb-12'>
                     <motion.h5 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0, transition: { duration: 0.75, delay: 0.25 } }} className='font-mono mb-1 text-2xl text-white font-bold md:text-3xl uppercase'>Proyectos</motion.h5>
                     <motion.p initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0, transition: { duration: 0.75, delay: 0.50 } }} className="leading-relaxed text-gray-200 mt-5">
-                        Con {calcularEdad()} años y {calcularExperiencia()} años de experiencia como desarrollador tanto backend como frontend, y con las ganas de aprender cada dia mas, he tenido la oprtunidad de desarrollar individual como en equipo diferentes plataformas que me permitieron pulir mis competencias ademas de no solo trabajar a nivel nacional sino tambien internacional.
+                        Con {calcularEdad()} años y {calcularExperiencia()} años de experiencia como desarrollador tanto backend como frontend, y con las ganas de aprender cada dia mas, he tenido la oportunidad de desarrollar individual como en equipo diferentes plataformas que me permitieron pulir mis competencias ademas de no solo trabajar a nivel nacional sino tambien internacional.
                     </motion.p>
                 </div>
                 <div className="flex flex-wrap -m-4">
