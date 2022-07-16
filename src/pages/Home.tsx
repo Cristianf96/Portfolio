@@ -31,9 +31,9 @@ const Home = () => {
                 <motion.h1 initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0, transition: { duration: 0.75, delay: 0.25 } }} className='font-mono text-center text-5xl text-white font-bold md:text-8xl'>
                     CRISTIAN
                 </motion.h1>
-                <motion.h1 initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0, transition: { duration: 0.75, delay: 0.50 } }} className='font-mono text-right pr-5 text-xs text-white font-bold md:text-2xl md:pr-28 lg:pr-20'>
+                {/* <motion.h1 initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0, transition: { duration: 0.75, delay: 0.50 } }} className='font-mono text-right pr-5 text-xs text-white font-bold md:text-2xl md:pr-28 lg:pr-20'>
                     semi-senior
-                </motion.h1>
+                </motion.h1> */}
                 <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { duration: 0.75, delay: 0.75 } }} className='font-mono text-right pr-0 text-sm text-white font-bold md:text-3xl md:pr-18 lg:pr-0'>
                     FullStack Developer
                 </motion.h1>
