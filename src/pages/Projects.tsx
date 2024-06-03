@@ -12,7 +12,7 @@ const Projects = () => {
             title: 'Distrito recicla',
             description: 'Plataforma para la obtencion de información de los procesos de recoleccion de materiales reciclables y no reciclabes.',
             linkGitHub: 'https://github.com/Cristianf96/degree_project2',
-            linkSite: 'https://www.distritorecicla.site/',
+            linkSite: 'https://distrito-recicla.vercel.app/',
             image: `${distrito}`,
             delay: 0.75
         },
